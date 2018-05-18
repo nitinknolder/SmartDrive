@@ -2,7 +2,6 @@ import {RouterModule, Routes} from '@angular/router';
 import {ModuleWithProviders} from '@angular/core';
 import {HomeComponent} from './home/home.component';
 import {RegisterComponent} from './register/register.component';
-import * as path from 'path';
 import {LoginComponent} from './login/login.component';
 
 export const routes: Routes = [
