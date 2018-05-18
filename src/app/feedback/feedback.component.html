@@ -1,0 +1,47 @@
+<div class="card-body white-text card-box col-xs-12 col-sm-12">
+
+  <div class="project-data">
+    <div class="row ">
+      <div class="col-md-12 text-center">
+        <form role="form" class="go-right form-center" (ngSubmit)="postFeedBackForm()" #userForm="ngForm">
+          <h2 class="color-me">SMARTDRIVE FEEDBACK</h2><span
+          class="glyphicon glyphicon-comment form-control-feedback"></span>
+          <hr>
+
+          <div class="form-group  username">
+            <label for="name">USERNAME</label>
+            <input disabled id="name" name="name" class="form-control user-field"
+                   value="{{currentUser}}" required>
+          </div>
+          <div class="form-group  title">
+            <label for="title">TITLE</label>
+            <input id="title" [(ngModel)]="title" ng-trim="true" type="text" name="title"
+                   class="form-control title-field"
+                   #myTitle="ngModel" placeholder="Enter Title Here..." required minlength="4"
+                   maxlength="50">
+            <div class="title-msg" *ngIf="myTitle.errors?.minlength && !myTitle.pristine">
+              Title must be at least 4 characters
+            </div>
+          </div>
+
+          <div class="form-group description">
+            <label for="description">DESCRIPTION (Enter atmost 200 characters)</label>
+            <textarea id="description" name="description" class="form-control description-field"
+                      style="height: 150px"
+                      #myDescription="ngModel" placeholder="Enter your description..." required
+                      minlength="4" maxlength="200"
+                      [(ngModel)]="description"></textarea>
+            <div class="description-msg" *ngIf="myDescription.errors?.minlength && !myDescription.pristine">
+              Description must be at least 4 characters
+            </div>
+          </div>
+          <div class="form-group">
+            <button [disabled]="userForm.invalid" type="submit" class="btn btn-primary click-me">Submit
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

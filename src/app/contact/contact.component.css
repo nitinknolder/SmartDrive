@@ -1,0 +1,90 @@
+/*Contact sectiom*/
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center;
+
+}
+#contact {
+  font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 79vw;
+  height: 550px;
+  height: 480px;
+  background: #3a6186;
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e);
+  background: linear-gradient(to left, #020202 , #bababb);
+  color: #fff;
+  top: 61px;
+  position: relative;
+  left: 74px;
+}
+user agent stylesheet
+article, aside, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+  height: 135px;
+  /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}
+.adjust-fields{
+  left: 155px;
+  position: relative;
+}
+
+.adjust-text-fields{
+  left: 46px;
+  position: relative;
+}
+.adjust-email-fields{
+  left: 30px;
+  position: relative;
+}
+
+.adjust-msg{
+  height: 83px!important;
+  width: 42%;
+  left: 53px;
+  position: relative
+}
+.send-msg{
+  top: 71px;
+  position: relative;
+}

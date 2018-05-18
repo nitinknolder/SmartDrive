@@ -1,0 +1,308 @@
+.card-body > hr {
+  border-top-style: none;
+  border-top-color: currentcolor;
+  border-bottom: 2px solid #5ecd99;
+  width: 100%;
+}
+
+.card-box {
+  margin-top: 106px;
+  height: 500px;
+  border-radius: 30px;
+  padding-top: 11px;
+  padding-bottom: 27px;
+  width: 93%;
+  margin-left: 36px;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1000px !important;
+  margin-left: 5px;
+  position: fixed;
+}
+
+hr {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: 0;
+  border-top: 2px solid #5ecd99;
+  width: 151%;
+  margin-left: -145px;
+}
+
+.glyphicon {
+  margin-top: 23px;
+  font-size: 20px;
+  margin-right: 233px;
+  float: none !important;
+}
+
+.form-control-feedback {
+  width: 80% !important;
+}
+
+.color-me {
+  color: #5f6468;
+  margin-top: 26px;
+}
+
+.form-center {
+  width: 60%;
+  margin: 0 auto;
+}
+
+label {
+  float: left;
+
+}
+
+.title-msg {
+  color: #ef1111 !important;
+  text-align: left;
+  width: 250px;
+}
+
+.description-msg {
+  color: #ef1111;
+  text-align: left;
+  width: 291px;
+}
+
+@media screen and (min-width: 1580px) and (max-width: 1920px) {
+  .card-box {
+    margin-top: 215px;
+    margin-left: 49px;
+    width: 90%;
+    height: 550px;
+  }
+
+  .form-control-feedback {
+    width: 79% !important;
+  }
+
+  hr {
+    width: 160%;
+    margin-left: -227px;
+  }
+
+  label {
+    margin-top: 13px;
+  }
+
+  .glyphicon {
+    margin-top: 24px;
+    margin-right: 267px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 580px) {
+
+  .color-me {
+    font-size: 13px;
+  }
+
+  .glyphicon {
+    margin-top: -8px;
+    font-size: 12px;
+    margin-right: 106px;
+  }
+
+  hr {
+    margin-top: -4px;
+    margin-bottom: 18px;
+    width: 154%;
+    margin-left: -45px;
+  }
+
+  .card-box {
+    margin-left: 12px;
+  }
+
+  .username {
+    margin-left: -37px;
+    font-size: 10px;
+  }
+
+  .user-field {
+    font-size: 13px;
+    height: 25px;
+  }
+
+  .title {
+    margin-left: -37px;
+    font-size: 10px;
+  }
+
+  #title {
+    font-size: 10px !important;
+  }
+
+  .title-field {
+    font-size: 10px !important;
+    height: 25px;
+    margin-left: -1px;
+  }
+
+  .description {
+    margin-left: -64px !important;
+    font-size: 10px;
+  }
+
+  .description-field {
+    margin-left: 22px !important;
+    width: 90%;
+  }
+
+  .click-me {
+    margin-top: 5px;
+    margin-left: 126px;
+  }
+
+  .description-msg {
+    margin-left: 22px;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 390px) {
+  .card-box {
+    margin-top: 133px !important;
+  }
+
+  .description {
+    margin-left: -71px !important;
+  }
+
+  .description-field {
+    margin-left: 34px !important;
+  }
+
+  .description-msg {
+    margin-left: 33px !important;
+  }
+}
+
+@media screen and (min-width: 411px) and (max-width: 450px) {
+  .description {
+    margin-left: -47px !important;
+    margin-right: 48px;
+  }
+
+  .description-field {
+    margin-left: 11px !important;
+    width: 235px;
+
+  }
+
+  .description-msg {
+    margin-left: 33px !important;
+  }
+  .glyphicon{
+    margin-right: 113px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .glyphicon {
+    margin-top: -1px;
+    margin-right: 186px;
+  }
+
+  hr {
+    width: 152%;
+    margin-left: -78px;
+  }
+
+  .card-box {
+    margin-left: 21px;
+    margin-top: 230px;
+  }
+
+  .username {
+    margin-left: -37px;
+  }
+
+  .user-field {
+    height: 25px;
+  }
+
+  .title {
+    margin-left: -37px;
+  }
+
+  #title {
+    font-size: 13px !important;
+  }
+
+  .title-field {
+    height: 25px;
+    margin-left: -1px;
+  }
+
+  .description {
+    margin-left: -39px !important;
+  }
+
+  .description-field {
+    margin-left: 2px !important;
+  }
+
+}
+
+@media screen and (min-width: 768px)and (max-width: 780px) {
+  .glyphicon {
+    margin-top: -3px;
+    margin-right: 204px;
+  }
+
+  hr {
+    width: 156%;
+    margin-left: -112px;
+  }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .glyphicon {
+    margin-top: -3px;
+    margin-right: 212px;
+  }
+
+  hr {
+    width: 155%;
+    margin-left: -114px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .glyphicon {
+    margin-right: 215px;
+  }
+
+  hr {
+    margin-left: -112px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1300px) {
+  .card-box {
+    margin-top: 258px;
+    height: 517px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1560px) {
+  hr {
+    width: 154%;
+    margin-left: -149px;
+  }
+
+  .card-box {
+    margin-top: 233px;
+    margin-left: 70px;
+  }
+
+}
