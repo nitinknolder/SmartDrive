@@ -14,7 +14,7 @@ body {
   width: 779px;
   float: left;
   margin-top: 100px !important;
-  left: 233px;
+  left: 270px;
   position: relative;
   top: -100px;
 }
@@ -82,10 +82,13 @@ body {
 
 #bottom {
   height: 40px;
-  width: 779px;
+  width: 925px;
   line-height: 40px;
   background-color: #1A1D22;
   float: left;
+  top: -100px;
+  left: 125px;
+  position: relative;;
 }
 
 #top {
@@ -95,8 +98,8 @@ body {
   background-color: #1A1D22;
   float: left;
   position: relative;
-  left: 7%;
-  margin-top: 7%;
+  left: 10%;
+  margin-top: 12%;
 }
 
 #main {
@@ -140,6 +143,8 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   padding-left: 20px;
+  left: 20px;
+  position: relative;
 }
 
 .toplinks a {
@@ -212,6 +217,8 @@ a:hover {
 .adjust-footer {
   bottom: 14px;
   position: relative;
+  text-align: center;
+  top: 0px;
 }
 
 /*Contact sectiom*/
