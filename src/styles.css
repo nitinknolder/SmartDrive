@@ -101,7 +101,16 @@ body {
   left: 10%;
   margin-top: 12%;
 }
-
+#top-register {
+  height: 40px;
+  width: 612px;
+  line-height: 40px;
+  background-color: #1A1D22;
+  float: left;
+  position: relative;
+  left: 22%;
+  margin-top: 2%;
+}
 #main {
   padding-right: 10px;
   padding-top: 10px;
@@ -533,8 +542,3 @@ textarea:focus, input:focus, button:focus {
   left: 85px;
   position: relative;
 }
-
-
-
-
-

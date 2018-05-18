@@ -28,7 +28,7 @@ body {
 
 .left {
   position: absolute;
-  top: 0;
+  top: 55px;
   left: 0;
   box-sizing: border-box;
   padding: 40px;
@@ -95,7 +95,7 @@ input[type="submit"]:active {
 
 .or {
   position: absolute;
-  top: 243px;
+  top: 214px;
   left: 280px;
   width: 40px;
   height: 40px;
@@ -108,7 +108,7 @@ input[type="submit"]:active {
 
 .right {
   position: absolute;
-  top: 48px;
+  top: 17px;
   right: 0;
   box-sizing: border-box;
   padding: 40px;
@@ -164,18 +164,16 @@ button.social-signin.google {
   background: #DD4B39;
 }
 
-
-.bottomlink:hover{
-  color:#28a599!important;
+.bottomlink:hover {
+  color: #28a599 !important;
 }
+
 a:hover {
-  color:#13dea0;
+  color: #13dea0;
 }
 
-
-.footer-link{
-  color: #c54510!important;
-  text-decoration: underline;
-  left: -200%;
+.set-heading {
+  top: -46px;
   position: relative;
 }
+
